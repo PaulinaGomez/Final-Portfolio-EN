@@ -1,0 +1,101 @@
+body {
+  font-family: "Myriad Pro Regular", Arial, Helvetica, sans-serif;
+  background-image: url("../images/portafolio-back.jpg");
+  background-color: #041a3e;
+  color: #7e7e80;
+}
+
+h2 {
+  font-family: "Multicolore", Georgia, "Times New Roman", Times, serif;
+  font-size: 15pt;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px black;
+}
+
+.col-md-3.banner {
+  background-color: #f05a28;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-right: 3%;
+  box-shadow: 3px 4px 8px 5px rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
+}
+
+.pic {
+  width: 250px;
+  height: 250px;
+}
+
+.col-md-12.pic {
+  padding-bottom: 4%;
+}
+
+.col-md-12.texto {
+  color: #ffffff;
+}
+
+.habilidades {
+  width: 250px;
+  height: 250px;
+}
+
+.card-title {
+  font-family: "Multicolore", Arial, Helvetica, sans-serif;
+  color: #041a3e;
+  text-align: center;
+}
+
+.col-md-8.proyectos {
+  margin-top: 3%;
+}
+
+#logo {
+  background-color: #4aaaa5;
+  width: 179px;
+  float: left;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+
+a:link {
+  color: #777777;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f05a28;
+}
+
+a:hover {
+  color: #4aaaa5;
+  background-color: #4aaaa5;
+  font-weight: bold;
+}
+
+.card:hover {
+  box-shadow: 3px 4px 8px 5px rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a:active {
+  color: rgb(0, 255, 179);
+}
+
+@font-face {
+  font-family: "Multicolore";
+  src: url(Multicolore.otf);
+}
+
+@font-face {
+  font-family: Myriad Pro Bold;
+  src: url(MyriadPro-Bold.otf);
+}
+
+@font-face {
+  font-family: Myriad Pro Regular;
+  src: url(MyriadPro-Regular.otf);
+}
